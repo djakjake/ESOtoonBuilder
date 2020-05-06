@@ -11,9 +11,11 @@ The idea is to run a character building sim that allows user to test builds that
 1. potions (passives)
 
 After the ability to build a character is complete, Design an experiment, perhaps using latin hypercubes, where the above listed are control variables and monte carlo variables can be taken fron the configuration file. some ideas for monte carlo variables are:
-1. average enemy density
-1. light attack rate
-1. heavy attack rate
+1. enemy density
+1. enemy damage rate
+1. enemy damage type
+1. player light attack rate
+1. player heavy attack rate
 1. average down time between proc'ed abilities (active, passive, gear)
 
 After running the toon building sim, perform analysis and optimazation for desired stats. ie:
@@ -28,9 +30,9 @@ This is just my thinking. the problem may not be well-defined or too complex; bu
 
 Build Plans
 ===========
-1. build scripting environment with setEnv.sh
-1. track (and install) python requirements with requirements.txt
-1. set up directory
-1. set up sim configuration/input/options
-1. set up main module
-1. build submodules
+1. build scripting environment with setEnv.sh --Done
+1. track (and install) python requirements with requirements.txt --Done
+1. set up directory --Done
+1. set up sim configuration/input/options --Not Started
+1. set up main module --Not Started
+1. build submodules --Not Started
