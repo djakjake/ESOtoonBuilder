@@ -5,7 +5,6 @@ The idea is to run a character building sim that allows user to test builds that
 1. attribute points
 1. champion points (and passives)
 1. equipement (sets and passives)
-1. skills (passives)
 1. abilities (active + passives)
 1. mundus stone (passives)
 1. buff food (passives)
