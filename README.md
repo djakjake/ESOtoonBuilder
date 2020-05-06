@@ -36,3 +36,6 @@ Build Plans
 1. set up sim configuration/input/options --Not Started
 1. set up main module --Not Started
 1. build submodules --Not Started
+1. Design of Experiment --Not Started
+1. run simulation --Not Started (not in current directory)
+1. optimization --Not Started (not in current directory)
