@@ -33,7 +33,7 @@ Build Plans
 1. build scripting environment with setEnv.sh --Done
 1. track (and install) python requirements with requirements.txt --Done
 1. set up directory --Done
-1. set up sim configuration/input/options --Not Started
+1. set up sim configuration/input/options --Done
 1. set up main module --Not Started
 1. build submodules --Not Started
 1. Design of Experiment --Not Started
