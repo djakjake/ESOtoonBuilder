@@ -25,3 +25,6 @@ source ./"$envName"/bin/activate
 
 # print helpful message for when user wants to deactivate
 printf "activated $envName.\ntype 'deactivate' to deactivate the virtual environment $envName.\n"
+
+# add the ESOtoonBuilder directory to path
+export PATH=$home:$PATH
