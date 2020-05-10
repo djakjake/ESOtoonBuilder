@@ -1,4 +1,5 @@
 # ignore folders
 toonBuilderEnv/
+**/__pycache__/
 
 # ignore files
