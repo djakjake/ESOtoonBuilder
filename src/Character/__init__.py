@@ -2,10 +2,21 @@
 # import external packages #
 #==========================#
 
-#==========================#
-# import Character modules #
-#==========================#
-from Attributes import Attributes
+#=============================#
+# import Character submodules #
+#=============================#
+from . Attributes import Attributes as Attr
+from . BuffFood import BuffFood as BF
+from . ChampionPoints import ChampionPoints as CP
+from . Equipment import Equipment as Equip
+from . Mundus import Mundus
+from . Potions import Potions as Pots
+from . Race import Race
+
+#============================#
+# import user configurations #
+#============================#
+
 
 #=============================================================================#
 # Character definition                                                        #
