@@ -3,3 +3,4 @@ toonBuilderEnv/
 **/__pycache__/
 
 # ignore files
+**.swp
