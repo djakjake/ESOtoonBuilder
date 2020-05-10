@@ -4,56 +4,67 @@
 # Character Options                                                           #
 #=============================================================================#
 
-class Character:
+class CharacterOptions:
 
     #==================#
     # attribute points #
     #==================#
 
-    class AttrPoints:
-        pass
+    Attributes = {
+        'health': 64,
+        'magicka': 0,
+        'stamina': 0,
+        'maxPoints': 64,
+    }
 
     #=================#
     # buff food/drink #
     #=================#
 
-    class BuffFood:
-        pass
+    BuffFood = {
+    }
 
     #=================#
     # champion points #
     #=================#
 
-    class CPpoints:
-        pass
+    ChampionPoints = {
+    }
 
     #===========#
     # equipment #
     #===========#
 
-    class Equip:
-        pass
+    Equipment = {
+    }
 
     #========#
     # mundus #
     #========#
 
-    class Mundus:
-        pass
+    Mundus = {
+    }
 
     #=========#
     # potions #
     #=========#
 
-    class Potions:
-        pass
+    Potions = {
+    }
+
+    #======#
+    # race #
+    #======#
+
+    Race = {
+    }
 
     #========#
     # skills #
     #========#
 
-    class Skills:
-        pass
+    Skills = {
+    }
 
 #=============================================================================#
 # Design of Experiment Options                                                #

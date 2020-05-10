@@ -49,7 +49,7 @@ class Character:
         ]:
             moduleName = subModule.__module__.split('.')[-1]
             optionsDict = getattr(usrOp, moduleName)
-            moduleInst = subModule(**optionsDict)
+            moduleInst = subModule(self, **optionsDict)
             setattr(self, moduleName, moduleInst)
 
         # TODO: test-delete
