@@ -34,8 +34,8 @@ Build Plans
 1. track (and install) python requirements with requirements.txt --Done
 1. set up directory --Done
 1. set up sim configuration/input/options --Done
-1. set up main module --Not Started
-1. build submodules --Not Started
+1. set up main module --In Progress
+1. build submodules --In Progress
 1. Design of Experiment --Not Started
 1. run simulation --Not Started (not in current directory)
 1. optimization --Not Started (not in current directory)
