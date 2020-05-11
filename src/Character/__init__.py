@@ -25,18 +25,20 @@ from .. config import CharacterOptions as usrOp
 
 class Character:
 
+
     #===========================#
     # default character options #
     #===========================#
 
     #==================================================================#
-    # constructor                                                      #
+    # Character constructor                                            #
     #==================================================================#
 
     def __init__(self, *args, **kwargs):
 
         # add sumbodule instances
         for subModule in [
+            # TODO: add PrimaryStats,
             Attributes,
             BuffFood,
             ChampionPoints,
@@ -50,4 +52,11 @@ class Character:
             optionsDict = getattr(usrOp, moduleName)
             moduleInst = subModule(self, **optionsDict)
             setattr(self, moduleName, moduleInst)
+
+        # TODO: update Attributes module to add stats to Character.PrimaryStats instead of Character
+        # TODO: add Buffs module
+        # TODO: add buffList as Buffs attribute
+        # TODO: finish implementing Mundus
+        # TODO: test mundus stone
+        # TODO: print CharacterPrimaryStats for recurring test
 

@@ -6,6 +6,8 @@
 
 class CharacterOptions:
 
+    # TODO: add PrimaryStats
+
     #========================================================================#
     # attribute points                                                       #
     # NOTE: defaults values can be found in                                  #
@@ -51,6 +53,22 @@ class CharacterOptions:
     #========#
 
     Mundus = {
+        # Pick the Mundus Stone (use quote). Available Options:
+        #   None, (no quotes)
+        #   'Lady',
+        #   'Lover',
+        #   'Lord',
+        #   'Mage',
+        #   'Tower',
+        #   'Atronach',
+        #   'Serpent',
+        #   'Shadow',
+        #   'Ritual',
+        #   'Thief',
+        #   'Warrior',
+        #   'Apprentice',
+        #   'Steed',
+        'stone': 'Lady',
     }
 
     #=========#
@@ -78,20 +96,20 @@ class CharacterOptions:
 # Design of Experiment Options                                                #
 #=============================================================================#
 
-class DOE:
+class DOEoptions:
     pass
 
 #=============================================================================#
 # Simulation Options                                                          #
 #=============================================================================#
 
-class Sim:
+class SimOptions:
     pass
 
 #=============================================================================#
 # Optimization Options                                                        #
 #=============================================================================#
 
-class Optimization:
+class OptimizationOptions:
     pass
 
