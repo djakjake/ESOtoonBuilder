@@ -51,7 +51,3 @@ class Character:
             moduleInst = subModule(self, **optionsDict)
             setattr(self, moduleName, moduleInst)
 
-        # TODO: test-delete
-        for attr in ['health', 'stamina', 'magica']:
-            attrValue = getattr(self.Attributes, attr)
-            print(f"{attr} = {attrValue}")
